@@ -2,7 +2,7 @@ package Lecture2;
 
 import java.util.Scanner;
 
-public class Pattern_11 {
+public class Pattern_12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -22,7 +22,7 @@ public class Pattern_11 {
             int j = 1;
             while (j <= star) {
                 if (j % 2 == 0) {
-                    System.out.print("  ");
+                    System.out.print("! ");
                 } else {
                     System.out.print("* ");
                 }
